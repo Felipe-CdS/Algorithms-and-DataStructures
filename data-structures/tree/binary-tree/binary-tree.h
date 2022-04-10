@@ -14,7 +14,7 @@ typedef struct  s_bintree
 ==========================
 */
 
-t_bt *t_bt_start			(void);
+t_bt *t_bt_start		(void);
 t_bt *t_bt_free_tree		(t_bt *t);
 t_bt *t_bt_find_first		(t_bt *t, int searched_elem);
 t_bt *t_bt_find_greatest	(t_bt *t);
@@ -40,7 +40,7 @@ t_bt *t_bt_insert		(int new_data, t_bt *left, t_bt *right);
 // @returns: 
 // 	1) original tree pointer;
 
-t_bt *t_bt_insert_left_safe		(t_bt *t, t_bt *parent_node, int new_node_data);
+t_bt *t_bt_insert_left_safe (t_bt *t, t_bt *parent_node, int new_node_data);
 t_bt *t_bt_insert_right_safe	(t_bt *t, t_bt *parent_node, int new_node_data);
 t_bt *t_bt_insert_left_unsafe	(t_bt *t, t_bt *parent_node, int new_node_data);
 t_bt *t_bt_insert_right_unsafe	(t_bt *t, t_bt *parent_node, int new_node_data);
