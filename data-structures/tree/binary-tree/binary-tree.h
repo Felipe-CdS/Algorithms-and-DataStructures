@@ -40,7 +40,7 @@ t_bt *t_bt_insert		(int new_data, t_bt *left, t_bt *right);
 // @returns: 
 // 	1) original tree pointer;
 
-t_bt *t_bt_insert_left_safe (t_bt *t, t_bt *parent_node, int new_node_data);
+t_bt *t_bt_insert_left_safe	(t_bt *t, t_bt *parent_node, int new_node_data);
 t_bt *t_bt_insert_right_safe	(t_bt *t, t_bt *parent_node, int new_node_data);
 t_bt *t_bt_insert_left_unsafe	(t_bt *t, t_bt *parent_node, int new_node_data);
 t_bt *t_bt_insert_right_unsafe	(t_bt *t, t_bt *parent_node, int new_node_data);
